@@ -1,0 +1,34 @@
+.app__header {
+    background-color: var(--color-black);
+  }
+  .block {
+    margin-bottom: 2rem;
+  }
+  .app__hire_header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    /* line-height: 1px; */
+    margin-bottom: 1rem;
+    font-size: 30px;
+  }
+  .app__header-img img {
+    width: 80%;
+  }
+  
+  @media (max-width: 650px) {
+    .app__header-h1 {
+      font-size: 45px;
+      line-height: 40px;
+      overflow-wrap: break-word;
+    }
+  }
+  @media (max-width: 450px) {
+    .app__header-h1 {
+      font-size: 25px;
+      line-height: 40px;
+      overflow-wrap: break-word;
+    }
+  }
+  

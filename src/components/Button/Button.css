@@ -1,0 +1,35 @@
+.button {
+  height: 180px;
+  width: 180px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.platform {
+  color: snow;
+  margin-top: 10px;
+}
+.logos {
+  height: 40px;
+  width: 40px;
+}
+@media (max-width: 2050px) {
+  .button {
+    height: 180px;
+    width: 180px;
+  }
+}
+@media (max-width: 1050px) {
+  .button {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media (max-width: 650px) {
+  .button {
+    height: 80px;
+    width: 80px;
+  }
+}

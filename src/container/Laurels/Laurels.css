@@ -1,0 +1,26 @@
+.app__height{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.app__header-h1_font {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 50px;
+    text-align: center;
+    
+    overflow-wrap: break-word;
+  }
+@media (max-width: 650px) {
+    .app__header-h1_font {
+        font-size: 25px;
+        line-height: 40px;
+        overflow-wrap: break-word;
+      }
+  }

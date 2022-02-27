@@ -1,0 +1,19 @@
+*{
+  font-family: var(--font-base);
+}
+.tab {
+  color: #FFF;
+  font-size: 12px;
+}
+@media (max-width: 650px) {
+  .MuiTab-wrapper{
+    font-size: 12px;
+  }
+  .MuiTabs-indicator{
+    width: 50px;
+  }
+  .app__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}

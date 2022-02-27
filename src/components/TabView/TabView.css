@@ -1,0 +1,17 @@
+.tabs{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.tab{
+    background-color: rgba(0, 0, 0, 0.0);
+    height: 100vh;
+}
+.MuiTabs-root{
+    background-color: rgba(0, 0, 0, 0.0);
+    height: 100vh;
+}
+.app__tab-center{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}

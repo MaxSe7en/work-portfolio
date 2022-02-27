@@ -1,0 +1,76 @@
+.app__gallery-height {
+  height: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: scroll;
+  align-items: center;
+  /* overflow: hidden; */
+  position: relative;
+}
+.app__gallery-height::-webkit-scrollbar {
+  display:none;
+}
+.custom {
+  position: relative;
+  /* padding: 0 5rem; */
+  /* overflow-x: scroll; */
+}
+/* .app__card-container {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15rem;
+  margin-left: 3rem;
+} */
+/* .app__card-container::-webkit-scrollbar{
+    display: none;
+} */
+
+.app__card_arrows-left {
+  height: 30rem;
+  background-color: rgba(19, 21, 22, 0.2);
+  font-size: xx-large;
+  width: 5rem;
+  color: aliceblue;
+  position: absolute;
+  left: 5rem;
+  top: 250px;
+  border: none;
+  z-index: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__card_arrows-left:hover,
+.app__card_arrows-right:hover {
+  transition: 0.5s ease-in;
+  background-color: rgb(19, 21, 22,0.7);
+}
+.app__card_arrows-right {
+  height: 30rem;
+  background-color: rgba(19, 21, 22, 0.2);
+  font-size: xx-large;
+  width: 5rem;
+  color: aliceblue;
+  position: absolute;
+  right: 5rem;
+  top: 250px;
+  border: none;
+  z-index: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__arrow-icon_left {
+  /* position: absolute; */
+}
+.card__arrow-icon_right {
+  /* position: absolute; */
+  /* left: 10; */
+  /* right: 10; */
+}
